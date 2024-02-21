@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Webcam from 'react-webcam';
-import './App.css';
+import '../App.css';
 
-function App() {
+function Registration() {
   const [name, setName] = useState('');
   const [imageSrc, setImageSrc] = useState('');
   const [feedback, setFeedback] = useState('');
@@ -68,4 +68,4 @@ function App() {
   );
 }
 
-export default App;
+export default Registration;
