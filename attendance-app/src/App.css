@@ -137,3 +137,16 @@
 span {
   margin-left: 16px;
 }
+
+.menu-logo {
+  height:250px;
+  width:250px;
+  position:absolute;
+  bottom:0;
+  padding-top: 25px;
+  padding-right: 25px;
+}
+
+.button-capture {
+  width: 20%;
+}

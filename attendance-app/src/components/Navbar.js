@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "../App.css";
 import { IconContext } from "react-icons";
+import eve_logo from '../img/EVE_MAIN_LOGO.png'
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
@@ -36,6 +37,7 @@ function Navbar() {
                 </li>
               );
             })}
+            <img className="menu-logo" src={eve_logo}/>
           </ul>
         </nav>
       </IconContext.Provider>

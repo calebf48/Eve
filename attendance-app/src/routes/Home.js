@@ -1,4 +1,5 @@
 import React from "react";
+import eve_logo from '../img/EVE_MAIN_LOGO.png';
 
 function Home() {
   return (

@@ -52,7 +52,7 @@ function Registration() {
           screenshotFormat="image/jpeg"
           style={{ margin: "auto", textAlign: "center" }}
         />
-        <button onClick={capture}>Capture photo</button>
+        <button className="button-capture" onClick={capture}>Capture photo</button>
         {imageSrc && (
           <>
             <img src={imageSrc} alt="Captured" style={{ margin: "auto", textAlign: "center" }}/>
